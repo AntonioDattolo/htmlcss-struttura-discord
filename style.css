@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+ 
 
 .backcolor {
     background-color: aqua;
@@ -106,10 +108,11 @@
 
 .black-back{
     background-color: black;
-    min-height: 50rem;    
+    min-height: 40rem;    
     display: flex;
     justify-content: center;
     align-items: center; 
+    flex-wrap: wrap;
 }
 
 .salmon-column{
@@ -127,3 +130,42 @@
     align-self: center;
     border: 1px dashed white;
 }
+ 
+
+.black-back-logo{
+    background-color: black;
+    min-height: 7rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.container-logo{
+    background-color: aquamarine;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 51%;
+    align-self: first baseline;
+    margin: 2rem 0;
+}
+.logo{
+    background-color: salmon;
+    
+ }
+
+ .button{
+    background-color: salmon;
+    
+    
+ }
+
+ hr {
+    margin: 0;
+    background-color: black;
+    color: white;
+ }
+
+ 
