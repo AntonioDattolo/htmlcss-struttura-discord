@@ -95,3 +95,35 @@
     background-color: pink;
     border: 1px dashed black;
 }
+
+.back-green{
+    background-color: green;
+    border: 1px dashed black;
+    height: 45rem;
+    width: 45rem;
+    margin: 5rem;
+}
+
+.black-back{
+    background-color: black;
+    min-height: 50rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.salmon-column{
+    background-color: salmon;
+    height: 35rem;
+    width: calc(100% / 7);
+    align-self: center;
+    border: 1px dashed white;
+}
+
+.azul-column{
+    background-color: aqua;
+    height: 35rem;
+    width: calc(100% /11);
+    align-self: center;
+    border: 1px dashed white;
+}
