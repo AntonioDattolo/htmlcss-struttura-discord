@@ -6,7 +6,7 @@
 
 .backcolor {
     background-color: aqua;
-    min-height: 45rem;
+    min-height: 55rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -52,18 +52,46 @@
 
 .blueback{
     background-color: blue;
-    min-height: 39rem;
+    min-height: 49rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;    
     margin-top: 2rem; 
-    
-    
 }
 
 .pink-box{
     background-color: pink;
-    height: 21rem;
+    height: 25rem;
     width: 50rem;
+}
+
+.back-white{
+    background-color: whitesmoke;
+    min-height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-grey{
+    background-color: grey;
+    min-height: 45rem;
+    display: flex;
+    align-items: center;    
+    justify-content: center;  
+}
+
+.blue-column{
+    width: calc(100% / 3);
+    height: 28rem;
+    background-color: lightskyblue;
+    border: 1px dashed black;
+}
+
+.pink-column{
+    width: calc(100% / 6);
+    height: 28rem;
+    background-color: pink;
+    border: 1px dashed black;
 }
